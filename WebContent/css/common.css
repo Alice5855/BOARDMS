@@ -1,4 +1,4 @@
-@charset="euc-kr";
+@charset "euc-kr";
 
 body {
 	background: url('../backgroundImage/blueSky.jpg');
@@ -113,7 +113,7 @@ a{
 	margin: 0;
 }
 
-/* ëŒ“ê¸€ ê´€ë ¨ CSS */
+/* ´ñ±Û °ü·Ã CSS */
  .animated {
     -webkit-transition: height 0.2s;
     -moz-transition: height 0.2s;
@@ -129,7 +129,7 @@ a{
 
 
 
-/* ê²°ì œì™„ë£Œ í˜ì´ì§€ CSS*/
+/* °áÁ¦¿Ï·á ÆäÀÌÁö CSS*/
 
 .shape{
 	border-style: solid; border-width: 0 100px 60px 0; float:right; height: 0px; width: 0px;

@@ -17,8 +17,10 @@
     <!-- Mobile Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+	
     <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" href="${context}/intro/img/favicon.ico">
+    
 
     <!-- Web Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -97,10 +99,10 @@
             <div class="slider-banner-2 bullets-with-bg">
               <ul>
                 <!-- slide 1 start -->
-                <li data-transition="fade" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on" data-title="Slide 1">
+                <li data-transition="fade" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on" data-title="Planner">
 
                 <!-- main image -->
-                <img src="img/slide_01.jpg"  alt="slidebg1" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                <img src="img/pexels-pierre-blache-2901209.jpg"  alt="slidebg1" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
                 <!-- Translucent background -->
                 <div class="tp-caption dark-translucent-bg"
@@ -138,17 +140,17 @@
                   data-speed="600"
                   data-start="0"
                   data-end="10000"
-                  data-endspeed="600"><a href="page-services.html" class="btn btn-default btn-lg">Planner <i class="fa fa-angle-double-right pl-10"></i></a>
+                  data-endspeed="600"><a href="${context}/intro/planner.jsp" class="btn btn-default btn-lg">Planner <i class="fa fa-angle-double-right pl-10"></i></a>
                 </div>
 
                 </li>
                 <!-- slide 1 end -->
 
                 <!-- slide 2 start -->
-                <li data-transition="fade" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on" data-title="Slide 2">
+                <li data-transition="fade" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on" data-title="Share">
 
                 <!-- main image -->
-                <img src="img/slide_02.jpg"  alt="slidebg1" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                <img src="img/pexels-spencer-davis-4353632.jpg"  alt="slidebg1" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
                 <!-- Translucent background -->
                 <div class="tp-caption dark-translucent-bg"
@@ -266,10 +268,11 @@
     <%-- 
     <script type="text/javascript" src="plugins/jquery.min.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-    --%>
+    
 	
     <!-- Modernizr javascript -->
     <script type="text/javascript" src="${context}/intro/plugins/modernizr.js"></script>
+    --%>
 
     <!-- jQuery REVOLUTION Slider  -->
     <script type="text/javascript" src="${context}/intro/plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>

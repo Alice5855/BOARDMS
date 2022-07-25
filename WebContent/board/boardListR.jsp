@@ -8,7 +8,12 @@
 <meta charset="UTF-8">
 <meta name="description" content="boardListR.jsp">
 <title>Travel Interact</title>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="${context}/intro/img/favicon.ico">
+
     <link href="${context}/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="${context}/css/sass/jumbotronimg.css" rel="stylesheet" type="text/css">
 	<script src="${context}/js/jquery-1.9.1.js"></script>
 	<script src="${context}/js/bootstrap.min.js"></script>
 
@@ -37,18 +42,20 @@
 <body>
 <jsp:include page="../intro/header.jsp"></jsp:include>
 	<div id="jumbotron" class="container">
-		<div class="jumbotron jumbotron-info" style="background-color: lightgreen;">
-			<h1><font color="green"><strong>Travel Interact</strong>&nbsp;<span class="glyphicon glyphicon-blackboard"></span></font></h1>
-			<p><font color="green">Welcome To Travel Interact</font></p>
+		<div class="jumbotron jumbotron-info">
+			<h1><strong>NOTICE</strong>&nbsp;<span class="glyphicon glyphicon-blackboard"></span></h1>
+			<p><b>Welcome To Travel Interact</b></p>
 		</div>
 		<div class="row">
+			<%--
 			<c:if test="${sessionScope.grade == 'A'}">
 			<div class="col-md-12">
 				<div class="page-header" style="float: right;">
-					  <button type="button" class="btn btn-success btn-lg" onclick="fn_createBoard()">새 글 쓰기</button>
+					  <button type="button" class="btn btn-success btn-sm" onclick="fn_createBoard()">새 글 쓰기</button>
 				</div>
 			</div>
 			</c:if>
+			--%>
 			<div class="col-md-12">
 				    <div class="panel panel-default">
 				        <!-- /.panel-heading -->
@@ -72,6 +79,13 @@
 					                    </c:forEach>
 				                    </tbody>
 				                </table>
+			                    <c:if test="${sessionScope.grade == 'A'}">
+									<div class="col-md-12">
+										<div style="float: right;">
+											  <button type="button" class="btn btn-primary btn-sm" onclick="fn_createBoard()">새 글 쓰기</button>
+										</div>
+									</div>
+								</c:if>
 				            </div>
 				            <!-- /.table-responsive -->
 				        </div>

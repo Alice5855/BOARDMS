@@ -73,10 +73,10 @@
                     <ul class="nav navbar-nav">
                       <li><a href="${context}/work/board/goMain.do">Home</a></li>
                       <li><a onclick="javascript:fn_isLogin('${sessionScope.userCode}','${loginUrl}','${context}/work/board/retrieveBoardList.do')">Board</a></li>
+                      	<li><a href="${context}/intro/planner.jsp">Planner</a></li>
+                      	<li><a href="#">Share</a></li>
                       <c:if test="${sessionScope.id != null}">
                       	<li><a href="${context}/work/user/updateUser.do">Modify</a></li>
-                      	<li><a href="#">Planner</a></li>
-                      	<li><a href="#">Share</a></li>
                       	<li><a onclick="javascript:fnDeleteUser()">Sign Out</a></li>
                       </c:if>
                     </ul>
@@ -101,11 +101,11 @@
     <!-- Jquery and Bootstap core js files -->
     <script type="text/javascript" src="${context}/intro/plugins/jquery.min.js"></script>
     <script type="text/javascript" src="${context}/intro/bootstrap/js/bootstrap.min.js"></script>
-    
-	<%--
+	
     <!-- Modernizr javascript -->
     <script type="text/javascript" src="${context}/intro/plugins/modernizr.js"></script>
-
+    
+	<%--
     <!-- jQuery REVOLUTION Slider  -->
     <script type="text/javascript" src="${context}/intro/plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
     <script type="text/javascript" src="${context}/intro/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>

@@ -8,6 +8,10 @@
 	<meta name="description" content="boardRegisterC.jsp">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Travel Interact</title>
+	    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="${context}/intro/img/favicon.ico">
+	
 	<link href="${context}/css/bootstrap.min.css" rel="stylesheet">
 	<link href="${context}/css/bootstrap-theme.css" rel="stylesheet">
 	<link href="${context}/css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
@@ -69,10 +73,10 @@
 			</div>
 		<div class="form-group">
 			<div class="col-md-offset-1 col-md-2">
-				<button type="button" class="btn btn-default" onclick="fn_back()">취소</button>
+				<button type="button" class="btn btn-primary" onclick="fn_back()">취소</button>
 			</div>
 			<div class="col-md-offset-7 col-md-1">
-				<button class="btn btn-primary" type="button" name="btnSubmit" id="btnSubmit" onclick="fn_save()">등록하기</button>
+				<button class="btn btn-success" type="button" name="btnSubmit" id="btnSubmit" onclick="fn_save()">등록하기</button>
 			</div>
 		</div>
 		</div>

@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" href="${context}/intro/img/favicon.ico">
 
     <!-- Web Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
@@ -246,9 +246,9 @@
                         <ul class="nav navbar-nav navbar-right">
                           	<li><a href="${context}/work/board/goMain.do">Home</a></li>
                           	<li><a onclick="javascript:fn_isLogin('${sessionScope.userCode}','${loginUrl}','${context}/work/board/retrieveBoardList.do')">Board</a></li>
-                          	<c:if test="${sessionScope.id != null}">
-                          	<li><a href="#">Planner</a></li>
+                          	<li><a href="${context}/intro/planner.jsp">Planner</a></li>
                      	  	<li><a href="#">Share</a></li>
+                          	<c:if test="${sessionScope.id != null}">
                           	<li><a href="${context}/work/user/updateUser.do">Modify</a></li>
                           	<li><a onclick="javascript:fnDeleteUser()">Sign Out</a></li>
                           </c:if>

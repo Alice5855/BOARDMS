@@ -8,6 +8,10 @@
 		<meta name="description" content="boardR.jsp">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Travel Interact</title>
+	    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="${context}/intro/img/favicon.ico">
+	
 	<link href="${context}/css/bootstrap.min.css" rel="stylesheet">
 	<link href="${context}/css/bootstrap-theme.css" rel="stylesheet">
 	<link href="${context}/css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
@@ -84,7 +88,7 @@ li{
 			<button class="btn btn-warning" type="button"  onclick="fn_update()">수정</button>
 		</div>
 		<div class="col-md-offset-9 col-md-1">
-			<button class="btn btn-primary" type="button" name="btnSubmit" id="btnSubmit" onclick="fn_delete()">삭제</button>
+			<button class="btn btn-danger" type="button" name="btnSubmit" id="btnSubmit" onclick="fn_delete()">삭제</button>
 		</div>
 	</div>
 

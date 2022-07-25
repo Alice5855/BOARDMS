@@ -1,0 +1,9 @@
+.jumbotron {
+  background-color: #cecece !important;
+  background-image: url("../images/pexels-alex-azabache-3757144.jpg") !important;
+  background-size: 100%;
+  background-blend-mode: multiply;
+}
+.jumbotron h1, .jumbotron p {
+  color: #2F76F5 !important;
+}/*# sourceMappingURL=jumbotronimg.css.map */

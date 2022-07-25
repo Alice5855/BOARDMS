@@ -16,6 +16,9 @@
 	<link href="//code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css" rel="stylesheet" >
 	<link href="${context}/intro/css/plugins/dataTables.bootstrap.css" rel="stylesheet">
     <link href="${context}/intro/css/process.css" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="${context}/intro/img/favicon.ico">
 
 	<script src="${context}/intro/js/jquery.js"></script>
     <script src="${context}/intro/js/plugins/metisMenu/metisMenu.min.js"></script>
@@ -145,10 +148,10 @@
 		<br><br><br>
 		<div class="form-group">
 			<div class="col-md-offset-4 col-md-2">
-				<button type="button" class="btn btn-success" onclick="fn_back()">뒤로가기</button>
+				<button type="button" class="btn btn-primary" onclick="fn_back()">뒤로가기</button>
 			</div>
 			<div class="col-md-2">
-				<button class="btn btn-primary" type="button" name="btnSubmit" id="btnSubmit" onclick="fn_save()">등록하기</button>
+				<button class="btn btn-success" type="button" name="btnSubmit" id="btnSubmit" onclick="fn_save()">등록하기</button>
 			</div>
 		</div>
 			<input type="hidden" id="flag" name="flag" value="false">
