@@ -10,7 +10,7 @@
 
     <!-- Mobile Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+	<%--
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico">
 
@@ -45,6 +45,8 @@
 
 	<script src="${context}/intro/js/jquery.js"></script>
     <script src="${context}/intro/js/common.js"></script>
+    --%>
+    </head>
       <!-- footer start (Add "light" class to #footer in order to enable light footer) -->
       <!-- ================ -->
       <footer id="footer">
@@ -56,7 +58,7 @@
               <div class="col-md-6">
                 <p>Copyright © 2016 Travel Interact. All Rights Reserved</p>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-5">
                 <nav class="navbar navbar-default" role="navigation">
                   <!-- Toggle get grouped for better mobile display -->
                   <div class="navbar-header">
@@ -68,12 +70,14 @@
                     </button>
                   </div>
                   <div class="collapse navbar-collapse" id="navbar-collapse-2">
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav">
                       <li><a href="${context}/work/board/goMain.do">Home</a></li>
-                      <li><a onclick="javascript:fn_isLogin('${sessionScope.userCode}','${loginUrl}','${context}/work/board/retrieveBoardList.do')">공지사항</a></li>
+                      <li><a onclick="javascript:fn_isLogin('${sessionScope.userCode}','${loginUrl}','${context}/work/board/retrieveBoardList.do')">Board</a></li>
                       <c:if test="${sessionScope.id != null}">
-                      	<li><a href="${context}/work/user/updateUser.do">정보수정</a></li>
-                      	<li><a onclick="javascript:fnDeleteUser()">회원탈퇴</a></li>
+                      	<li><a href="${context}/work/user/updateUser.do">Modify</a></li>
+                      	<li><a href="#">Planner</a></li>
+                      	<li><a href="#">Share</a></li>
+                      	<li><a onclick="javascript:fnDeleteUser()">Sign Out</a></li>
                       </c:if>
                     </ul>
                   </div>
@@ -87,22 +91,26 @@
       </footer>
       <!-- footer end -->
 
-    </div>
+    
     <!-- page-wrapper end -->
+    </div>
 
+	
     <!-- JavaScript files placed at the end of the document so the pages load faster
     ================================================== -->
     <!-- Jquery and Bootstap core js files -->
     <script type="text/javascript" src="${context}/intro/plugins/jquery.min.js"></script>
     <script type="text/javascript" src="${context}/intro/bootstrap/js/bootstrap.min.js"></script>
-
+    
+	<%--
     <!-- Modernizr javascript -->
     <script type="text/javascript" src="${context}/intro/plugins/modernizr.js"></script>
 
     <!-- jQuery REVOLUTION Slider  -->
     <script type="text/javascript" src="${context}/intro/plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
     <script type="text/javascript" src="${context}/intro/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-
+	--%>
+	
 	<!-- planner1 footer, planner1Form must both import 3-->
 	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -138,7 +146,4 @@
 
     <!-- Custom Scripts -->
     <script type="text/javascript" src="${context}/intro/js/custom.js"></script>
-
-
-
-</body></html>
+ 	

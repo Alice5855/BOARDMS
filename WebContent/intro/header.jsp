@@ -45,6 +45,8 @@
 
 	<script src="${context}/intro/js/jquery.js"></script>
     <script src="${context}/intro/js/common.js"></script>
+    
+    
 	<style type="text/css">
 	li{
 		cursor: pointer;
@@ -242,11 +244,13 @@
                       <!-- Collect the nav links, forms, and other content for toggling -->
                       <div class="collapse navbar-collapse" id="navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                          <li><a href="${context}/work/board/goMain.do">Home</a></li>
-                          <li><a onclick="javascript:fn_isLogin('${sessionScope.userCode}','${loginUrl}','${context}/work/board/retrieveBoardList.do')">공지사항</a></li>
-                          <c:if test="${sessionScope.id != null}">
-                          	<li><a href="${context}/work/user/updateUser.do">정보수정</a></li>
-                          	<li><a onclick="javascript:fnDeleteUser()">회원탈퇴</a></li>
+                          	<li><a href="${context}/work/board/goMain.do">Home</a></li>
+                          	<li><a onclick="javascript:fn_isLogin('${sessionScope.userCode}','${loginUrl}','${context}/work/board/retrieveBoardList.do')">Board</a></li>
+                          	<c:if test="${sessionScope.id != null}">
+                          	<li><a href="#">Planner</a></li>
+                     	  	<li><a href="#">Share</a></li>
+                          	<li><a href="${context}/work/user/updateUser.do">Modify</a></li>
+                          	<li><a onclick="javascript:fnDeleteUser()">Sign Out</a></li>
                           </c:if>
                         </ul>
                       </div>
@@ -275,8 +279,11 @@
 
       <!-- section start -->
       <!-- ================ -->
+      
       <div class="section clearfix object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="300">
 
         <div class="container">
           <div class="row">
             <div class="col-md-12">
+
+            

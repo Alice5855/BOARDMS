@@ -24,8 +24,10 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
 
+	<%--
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+     --%>
 
     <!-- Font Awesome CSS -->
     <link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -209,6 +211,9 @@
 
       <!-- footer start (Add "light" class to #footer in order to enable light footer) -->
       <!-- ================ -->
+      
+      <%@ include file="footer.jsp" %>
+      <%--
       <footer id="footer">
 
 
@@ -237,7 +242,7 @@
                       <li><a href="index.jsp">Home</a></li>
                       <li><a href="#">Planner</a></li>
                       <li><a href="#">Share</a></li>
-                      <li><a href="#">Notice</a></li>
+                      <li><a onclick="javascript:fn_isLogin('${sessionScope.userCode}','${loginUrl}','${context}/work/board/retrieveBoardList.do')">Notice</a></li>
                       <li><a href="#">MyPage</a></li>
                     </ul>
                   </div>
@@ -250,25 +255,28 @@
 
       </footer>
       <!-- footer end -->
-
     </div>
     <!-- page-wrapper end -->
+ 	--%>
 
+	
     <!-- JavaScript files placed at the end of the document so the pages load faster
     ================================================== -->
     <!-- Jquery and Bootstap core js files -->
+    <%-- 
     <script type="text/javascript" src="plugins/jquery.min.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-
+    --%>
+	
     <!-- Modernizr javascript -->
-    <script type="text/javascript" src="plugins/modernizr.js"></script>
+    <script type="text/javascript" src="${context}/intro/plugins/modernizr.js"></script>
 
     <!-- jQuery REVOLUTION Slider  -->
-    <script type="text/javascript" src="plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="${context}/intro/plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="${context}/intro/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 
 
-
+	<%--
     <!-- Isotope javascript -->
     <script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
 
@@ -299,6 +307,6 @@
 
     <!-- Custom Scripts -->
     <script type="text/javascript" src="js/custom.js"></script>
-
+	 --%>
   </body>
 </html>
