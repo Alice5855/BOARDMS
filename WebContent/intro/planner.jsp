@@ -30,6 +30,7 @@
 		.context{font-size: 1.7rem;}
 		.items > h2{font-size: 3.5rem;}
 		.page{text-align: center;}
+		.btn-group{float: right; z-index: 999;}
 	</style>
 </head>
 <body>
@@ -42,6 +43,18 @@
 						<a href="#"><img src="${context}/css/images/pexels-daniel-frank-356807.jpg" alt="img1" class="productimg"></a>
 						<h2><a href="#">독일, 체코, 오스트리아 9일</a></h2>
 						<p class="context"><a href="#">#드레스덴, #빈, #프라하, #프랑크푸르트, #잘츠부르크, #할슈타트</a></p>
+						<div class="btn-group">
+							<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Share <span class="caret"></span>
+						  	</button>
+						  	<ul class="dropdown-menu">
+							    <li><a href="#">Instagram</a></li>
+							    <li><a href="#">Facebook</a></li>
+							    <li><a href="#">Twitter</a></li>
+							    <li role="separator" class="divider"></li>
+							    <li><a href="#">Link</a></li>
+						  	</ul>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -52,6 +65,18 @@
 						<a href="#"><img src="${context}/css/images/pexels-pixabay-260566.jpg" alt="img2" class="productimg"></a>
 						<h2><a href="#">대만 4일</a></h2>
 						<p class="context"><a href="#">#타이페이, #지우펀, #야류, #화련</a></p>
+						<div class="btn-group">
+							<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Share <span class="caret"></span>
+						  	</button>
+						  	<ul class="dropdown-menu">
+							    <li><a href="#">Instagram</a></li>
+							    <li><a href="#">Facebook</a></li>
+							    <li><a href="#">Twitter</a></li>
+							    <li role="separator" class="divider"></li>
+							    <li><a href="#">Link</a></li>
+						  	</ul>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -62,6 +87,18 @@
 						<a href="#"><img src="${context}/css/images/pexels-son-tung-tran-6483239.jpg" alt="img3" class="productimg"></a>
 						<h2><a href="#">스페인 일주 8~9일</a></h2>
 						<p class="context"><a href="#">#마드리드, #톨레도, #코르도바, #세비야, #론다, #그라나다, #발렌시아, #몬세라트, #바르셀로나</a></p>
+						<div class="btn-group">
+							<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Share <span class="caret"></span>
+						  	</button>
+						  	<ul class="dropdown-menu">
+							    <li><a href="#">Instagram</a></li>
+							    <li><a href="#">Facebook</a></li>
+							    <li><a href="#">Twitter</a></li>
+							    <li role="separator" class="divider"></li>
+							    <li><a href="#">Link</a></li>
+						  	</ul>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -72,6 +109,18 @@
 						<a href="#"><img src="${context}/css/images/hokkaido-g59bf5fa71_1920.jpg" alt="img4" class="productimg"></a>
 						<h2><a href="#">홋카이도 4일</a></h2>
 						<p class="context"><a href="#">#노보리베츠, #오타루, #도야, #삿포로</a></p>
+						<div class="btn-group">
+							<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Share <span class="caret"></span>
+						  	</button>
+						  	<ul class="dropdown-menu">
+							    <li><a href="#">Instagram</a></li>
+							    <li><a href="#">Facebook</a></li>
+							    <li><a href="#">Twitter</a></li>
+							    <li role="separator" class="divider"></li>
+							    <li><a href="#">Link</a></li>
+						  	</ul>
+						</div>
 					</div>
 				</div>
 			</div>
