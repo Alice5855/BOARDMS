@@ -30,7 +30,7 @@
 		.context{font-size: 1.7rem;}
 		.items > h2{font-size: 3.5rem;}
 		.page{text-align: center;}
-		.btn-group{float: right; z-index: 999;}
+		.btn-group{float: right; z-index: 3;}
 	</style>
 </head>
 <body>
