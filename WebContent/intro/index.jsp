@@ -188,7 +188,7 @@
                   data-speed="600"
                   data-start="0"
                   data-end="10000"
-                  data-endspeed="600"><a href="page-services.html" class="btn btn-default btn-lg">Share <i class="fa fa-angle-double-right pl-10"></i></a>
+                  data-endspeed="600"><a href="${context}/intro/share.jsp" class="btn btn-default btn-lg">Share <i class="fa fa-angle-double-right pl-10"></i></a>
                 </div>
 
                 </li>

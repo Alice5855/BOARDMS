@@ -26,11 +26,16 @@
     <script src="//code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
 	
 	<style type="text/css">
-		.productimg{float: left; margin-right: 3%;  width: 35%;}
+		.productimgv{width: 100%; object-fit: cover; bottom: 0%; position: absolute;}
+		.productimgh{height: 100%; object-fit: cover; position: absolute;}
 		.context{font-size: 1.7rem;}
-		.items > h2{font-size: 3.5rem;}
 		.page{text-align: center;}
-		.btn-group{float: right !important; z-index: 999 !important;}
+		.items > h2{font-size: 3.5rem;}
+		.miscellaneous{margin-top: 5% !important; font-size: 2rem; margin: 0;}
+		.miscellaneous img{width: 60px; float: left; margin-right: 1%;}
+		.profile{clip-path: circle(35%);}
+		.divider{margin-right: 5%; margin-left: 5%;}
+		.imgcontainer{width: 280px; height: 280px; float: left; margin-right: 3%; overflow: hidden; position: relative;}
 	</style>
 </head>
 <body>
@@ -40,23 +45,100 @@
 			<div class="panel panel-default">
 				<div class="panel-body">
 					<div class="items">
-						<a href="#"><img src="${context}/css/images/pexels-daniel-frank-356807.jpg" alt="img1" class="productimg"></a>
+						<div class="imgcontainer">
+							<a href="#"><img src="${context}/css/images/coffee-g393756137_1920.jpg" alt="img1" class="productimgv"></a>
+						</div>
+						<h2><a href="#">Einspanner</a></h2>
+						<p><a href="#">Context</a></p>
+						<div class="miscellaneous">
+							<a href="#">
+								<img src="${context}/css/images/pexels-daniel-frank-356807.jpg" alt="author1" class="profile">
+								<span>Author</span><span class="divider">|</span><span>Date</span>
+							</a>
+						</div>
+<!-- http://getabout.hanatour.com/archives/category/destination/japan/kansai -->
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<div class="items">
+						<div class="imgcontainer">
+							<a href="#"><img src="${context}/css/images/pexels-daniel-frank-356807.jpg" alt="img1" class="productimgh"></a>
+						</div>
 						<h2><a href="#">Event Title</a></h2>
-						<p class="context"><a href="#">Event Context</a></p>
-						<div class="btn-group">
-							<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Share <span class="caret"></span>
-						  	</button>
-						  	<ul class="dropdown-menu">
-							    <li><a href="#">Instagram</a></li>
-							    <li><a href="#">Facebook</a></li>
-							    <li><a href="#">Twitter</a></li>
-							    <li role="separator" class="divider"></li>
-							    <li><a href="#">Link</a></li>
-						  	</ul>
+						<p><a href="#">Event Context</a></p>
+						<div class="miscellaneous">
+							<a href="#">
+								<img src="${context}/css/images/pexels-daniel-frank-356807.jpg" alt="author1" class="profile">
+								<span>Author</span><span class="divider">|</span><span>Date</span>
+							</a>
 						</div>
 					</div>
 				</div>
+			</div>
+			<hr>
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<div class="items">
+						<div class="imgcontainer">
+							<a href="#"><img src="${context}/css/images/pexels-daniel-frank-356807.jpg" alt="img1" class="productimgh"></a>
+						</div>
+						<h2><a href="#">Event Title</a></h2>
+						<p><a href="#">Event Context</a></p>
+						<div class="miscellaneous">
+							<a href="#">
+								<img src="${context}/css/images/pexels-daniel-frank-356807.jpg" alt="author1" class="profile">
+								<span>Author</span><span class="divider">|</span><span>Date</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<div class="items">
+						<div class="imgcontainer">
+							<a href="#"><img src="${context}/css/images/pexels-daniel-frank-356807.jpg" alt="img1" class="productimgh"></a>
+						</div>
+						<h2><a href="#">Event Title</a></h2>
+						<p><a href="#">Event Context</a></p>
+						<div class="miscellaneous">
+							<a href="#">
+								<img src="${context}/css/images/pexels-daniel-frank-356807.jpg" alt="author1" class="profile">
+								<span>Author</span><span class="divider">|</span><span>Date</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<c:if test="${sessionScope.id != null}">
+				<div class="col-md-12">
+					<div style="float: right;">
+						  <button type="button" class="btn btn-primary btn-sm" onclick="">에디터 신청하기</button>
+					</div>
+				</div>
+			</c:if>
+			<div class="page">
+				<ul class="pagination pagination-lg">
+				    <li class="page-item disabled">
+				    	<a class="page-link" href="#" aria-label="Previous">
+				        	<span aria-hidden="true">&laquo;</span>
+				        	<span class="sr-only">Previous</span>
+				    	</a>
+				    </li>
+				    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+				    <li class="page-item"><a class="page-link" href="#">2</a></li>
+				    <li class="page-item"><a class="page-link" href="#">3</a></li>
+				    <li class="page-item">
+				        <a class="page-link" href="#" aria-label="Next">
+					        <span aria-hidden="true">&raquo;</span>
+					        <span class="sr-only">Next</span>
+				        </a>
+			        </li>
+				</ul>
 			</div>
 		</div>
 	</div>
