@@ -26,13 +26,14 @@
     <script src="//code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
 	
 	<style type="text/css">
+		.panel-body{position: relative;}
 		.productimgv{width: 100%; object-fit: cover; bottom: 0%; position: absolute;}
 		.productimgh{height: 100%; object-fit: cover; position: absolute;}
 		.context{font-size: 1.7rem;}
 		.page{text-align: center;}
 		.items > h2{font-size: 3.5rem;}
-		.miscellaneous{margin-top: 5% !important; font-size: 2rem; margin: 0;}
-		.miscellaneous img{width: 60px; float: left; margin-right: 1%;}
+		.miscellaneous{right: 2%; font-size: 2rem; margin: 0; position: absolute; bottom: 5%;}
+		.miscellaneous img{width: 60px; margin-right: 1%;}
 		.profile{clip-path: circle(35%);}
 		.divider{margin-right: 5%; margin-left: 5%;}
 		.imgcontainer{width: 280px; height: 280px; float: left; margin-right: 3%; overflow: hidden; position: relative;}
@@ -65,9 +66,9 @@
 				<div class="panel-body">
 					<div class="items">
 						<div class="imgcontainer">
-							<a href="#"><img src="${context}/css/images/pexels-daniel-frank-356807.jpg" alt="img1" class="productimgh"></a>
+							<a href="#"><img src="${context}/css/images/pexels-timo-volz-1717862.jpg" alt="img2" class="productimgv"></a>
 						</div>
-						<h2><a href="#">Event Title</a></h2>
+						<h2><a href="#">타이페이 101. 대만 경제발전의 빛과 그림자</a></h2>
 						<p><a href="#">Event Context</a></p>
 						<div class="miscellaneous">
 							<a href="#">
@@ -83,9 +84,9 @@
 				<div class="panel-body">
 					<div class="items">
 						<div class="imgcontainer">
-							<a href="#"><img src="${context}/css/images/pexels-daniel-frank-356807.jpg" alt="img1" class="productimgh"></a>
+							<a href="#"><img src="${context}/css/images/pexels-boris-hamer-10055905.jpg" alt="img3" class="productimgh"></a>
 						</div>
-						<h2><a href="#">Event Title</a></h2>
+						<h2><a href="#">Paella</a></h2>
 						<p><a href="#">Event Context</a></p>
 						<div class="miscellaneous">
 							<a href="#">
@@ -101,9 +102,9 @@
 				<div class="panel-body">
 					<div class="items">
 						<div class="imgcontainer">
-							<a href="#"><img src="${context}/css/images/pexels-daniel-frank-356807.jpg" alt="img1" class="productimgh"></a>
+							<a href="#"><img src="${context}/css/images/pexels-erika-lu-11351269.jpg" alt="img4" class="productimgv"></a>
 						</div>
-						<h2><a href="#">Event Title</a></h2>
+						<h2><a href="#">설국, 홋카이도 탐방기</a></h2>
 						<p><a href="#">Event Context</a></p>
 						<div class="miscellaneous">
 							<a href="#">
