@@ -247,7 +247,7 @@
                           	<li><a href="${context}/work/board/goMain.do">Home</a></li>
                           	<li><a onclick="javascript:fn_isLogin('${sessionScope.userCode}','${loginUrl}','${context}/work/board/retrieveBoardList.do')">Board</a></li>
                           	<li><a href="${context}/intro/planner.jsp">Planner</a></li>
-                     	  	<li><a href="${context}/intro/share.jsp">Share</a></li>
+                     	  	<li><a href="${context}/intro/webzine.jsp">Webzine</a></li>
                           	<c:if test="${sessionScope.id != null}">
                           	<li><a href="${context}/work/user/updateUser.do">Modify</a></li>
                           	<li><a onclick="javascript:fnDeleteUser()">Sign Out</a></li>

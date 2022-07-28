@@ -26,11 +26,12 @@
     <script src="//code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
 	
 	<style type="text/css">
+		.panel-body{position: relative;}
 		.productimg{height: 100%; object-fit: cover; position: absolute;}
 		.context{font-size: 1.7rem;}
 		.items > h2{font-size: 3.5rem;}
 		.page{text-align: center;}
-		.btn-group{float: right; z-index: 3; margin-top: 5% !important;}
+		.btn-group{z-index: 3; right: 2%; margin: 0; position: absolute !important; bottom: 5%;}
 		.imgcontainer{width: 280px; height: 280px; float: left; margin-right: 3%; overflow: hidden; position: relative;}
 	</style>
 </head>

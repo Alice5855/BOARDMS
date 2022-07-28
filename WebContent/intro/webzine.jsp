@@ -32,9 +32,8 @@
 		.context{font-size: 1.7rem;}
 		.page{text-align: center;}
 		.items > h2{font-size: 3.5rem;}
-		.miscellaneous{right: 2%; font-size: 2rem; margin: 0; position: absolute; bottom: 5%;}
-		.miscellaneous img{width: 60px; margin-right: 1%;}
-		.profile{clip-path: circle(35%);}
+		.miscellaneous{right: 4%; font-size: 1.5rem; position: absolute; right: 5%; bottom: 5%;}
+		.profile{width: 55px; clip-path: circle(35%); position: absolute; right: 100%; bottom: -7%;}
 		.divider{margin-right: 5%; margin-left: 5%;}
 		.imgcontainer{width: 280px; height: 280px; float: left; margin-right: 3%; overflow: hidden; position: relative;}
 	</style>
@@ -49,15 +48,14 @@
 						<div class="imgcontainer">
 							<a href="#"><img src="${context}/css/images/coffee-g393756137_1920.jpg" alt="img1" class="productimgv"></a>
 						</div>
-						<h2><a href="#">Einspanner</a></h2>
-						<p><a href="#">Context</a></p>
+						<h2><a href="#">마부의 커피, Einspanner</a></h2>
+						<p><a href="#">'비엔나 커피'로 유명한 아인슈패너는 진한 블랙커피에 크림과 설탕을 얹어 만든 커피입니다. Einspänner는 말 한마리가 끄는 마차를 뜻하는데요, 빈의 마부들이 피로를 풀기 위해 설탕과 크림을 듬뿍 넣어 진한 커피를 마신것에서...</a></p>
 						<div class="miscellaneous">
 							<a href="#">
 								<img src="${context}/css/images/pexels-daniel-frank-356807.jpg" alt="author1" class="profile">
-								<span>Author</span><span class="divider">|</span><span>Date</span>
+								<span>Trebuchet512</span><span class="divider">|</span><span>2022.05.15</span>
 							</a>
 						</div>
-<!-- http://getabout.hanatour.com/archives/category/destination/japan/kansai -->
 					</div>
 				</div>
 			</div>
@@ -68,12 +66,12 @@
 						<div class="imgcontainer">
 							<a href="#"><img src="${context}/css/images/pexels-timo-volz-1717862.jpg" alt="img2" class="productimgv"></a>
 						</div>
-						<h2><a href="#">타이페이 101. 대만 경제발전의 빛과 그림자</a></h2>
-						<p><a href="#">Event Context</a></p>
+						<h2><a href="#">中國이 바랐던 中華, 대만을 가다</a></h2>
+						<p><a href="#">대만은 중국과 여러 의미로 뗄레야 뗄 수 없는 관계를 갖고 있다. 역사적으로나 문화적으로나 뿌리가 하나인 탓에 동질감을 느끼지 않을 수가 없고, 경제적으로도 대만과 중국은 서로에게 의존하고 있는 비율이 꽤나 높다. 그러나 대만...</a></p>
 						<div class="miscellaneous">
 							<a href="#">
 								<img src="${context}/css/images/pexels-daniel-frank-356807.jpg" alt="author1" class="profile">
-								<span>Author</span><span class="divider">|</span><span>Date</span>
+								<span>Carter6412</span><span class="divider">|</span><span>2022.01.13</span>
 							</a>
 						</div>
 					</div>
@@ -86,12 +84,12 @@
 						<div class="imgcontainer">
 							<a href="#"><img src="${context}/css/images/pexels-boris-hamer-10055905.jpg" alt="img3" class="productimgh"></a>
 						</div>
-						<h2><a href="#">Paella</a></h2>
-						<p><a href="#">Event Context</a></p>
+						<h2><a href="#">Cajun 원조집, Paella</a></h2>
+						<p><a href="#">'크리올'이란 유럽계와 현지인의 혼혈을 일컫는 말입니다. 요리에도 크리올 요리가 있는데요, 짐작하시다시피 현지 방식과 유럽 방식의 요리 양식을 합쳐서 탄생한 요리를 크리올이라고 합니다. 일종의 스페인식 필라프인 빠에야는...</a></p>
 						<div class="miscellaneous">
 							<a href="#">
 								<img src="${context}/css/images/pexels-daniel-frank-356807.jpg" alt="author1" class="profile">
-								<span>Author</span><span class="divider">|</span><span>Date</span>
+								<span>Trebuchet512</span><span class="divider">|</span><span>2021.05.08</span>
 							</a>
 						</div>
 					</div>
@@ -102,14 +100,14 @@
 				<div class="panel-body">
 					<div class="items">
 						<div class="imgcontainer">
-							<a href="#"><img src="${context}/css/images/pexels-erika-lu-11351269.jpg" alt="img4" class="productimgv"></a>
+							<a href="#"><img src="${context}/css/images/otaru-g6827d8e83_1920.jpg" alt="img4" class="productimgh"></a>
 						</div>
 						<h2><a href="#">설국, 홋카이도 탐방기</a></h2>
-						<p><a href="#">Event Context</a></p>
+						<p><a href="#">홋카이도는 일본에서 설국이라 불린다. 실제로 홋카이도는 일본 뿐 아니라 세계적으로도 최대 다설지 중 하나로 꼽히는 지역이다. 눈이 많이 오는 것은 분명 운치있는 분위기를 자아내기도 하지만...</a></p>
 						<div class="miscellaneous">
 							<a href="#">
 								<img src="${context}/css/images/pexels-daniel-frank-356807.jpg" alt="author1" class="profile">
-								<span>Author</span><span class="divider">|</span><span>Date</span>
+								<span>Edward724</span><span class="divider">|</span><span>2021.03.14</span>
 							</a>
 						</div>
 					</div>

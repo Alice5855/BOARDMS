@@ -168,7 +168,7 @@
                   data-speed="600"
                   data-start="0"
                   data-end="10000"
-                  data-endspeed="600">Share
+                  data-endspeed="600">Webzine
                 </div>
 
                 <!-- LAYER NR. 2 -->
@@ -178,7 +178,7 @@
                   data-speed="600"
                   data-start="0"
                   data-end="10000"
-                  data-endspeed="600">Share your trip
+                  data-endspeed="600">Preview your trip
                 </div>
 
                 <!-- LAYER NR. 3 -->
@@ -188,7 +188,7 @@
                   data-speed="600"
                   data-start="0"
                   data-end="10000"
-                  data-endspeed="600"><a href="${context}/intro/share.jsp" class="btn btn-default btn-lg">Share <i class="fa fa-angle-double-right pl-10"></i></a>
+                  data-endspeed="600"><a href="${context}/intro/webzine.jsp" class="btn btn-default btn-lg">Webzine <i class="fa fa-angle-double-right pl-10"></i></a>
                 </div>
 
                 </li>
