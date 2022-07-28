@@ -49,7 +49,7 @@
     </head>
       <!-- footer start (Add "light" class to #footer in order to enable light footer) -->
       <!-- ================ -->
-      <footer id="footer">
+      <footer id="footer light">
         <!-- .subfooter start -->
         <!-- ================ -->
         <div class="subfooter">
