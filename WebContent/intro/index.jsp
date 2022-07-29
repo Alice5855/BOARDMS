@@ -110,7 +110,7 @@
                   data-y="bottom"
                   data-speed="800"
                   data-start="0"
-                  style="background-color:rgba(0,0,0,0.5);">
+                  style="background-color:rgba(0,0,0,0.3);">
                 </div>
 
                 <!-- LAYER NR. 1 -->
@@ -158,7 +158,7 @@
                   data-y="bottom"
                   data-speed="800"
                   data-start="0"
-                  style="background-color:rgba(0,0,0,0.5);">
+                  style="background-color:rgba(0,0,0,0.3);">
                 </div>
 
                 <!-- LAYER NR. 1 -->
