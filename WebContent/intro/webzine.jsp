@@ -32,41 +32,41 @@
 		.title{font-size: 3.5rem;}
 		.context{font-size: 1.6rem;}
 		.imgcontainer{width: 280px; height: 280px; float: left; margin-right: 3%; overflow: hidden; position: relative;}
-		.miscellaneous{right: 4%; font-size: 1.5rem; position: absolute; right: 5%; bottom: 5%;}
+		.miscellaneous{right: 4%; font-size: 1.5rem; position: absolute; right: 5%; bottom: 5%; font-weight: bold; color: #2461AA !important;}
 		.profile{width: 55px; clip-path: circle(35%); position: absolute; right: 100%; bottom: -65%;}
 		.divider{margin-right: 5%; margin-left: 5%;}
 		.page{text-align: center;}
-		
+		.miscellaneous span{color: #2461AA !important;}
 		@media screen and (max-width: 767px) {
-			.imgcontainer{width: 240px; height: 240px; float: left; margin-right: 3%; overflow: hidden; position: relative;}
+			.imgcontainer{width: 240px; height: 240px;}
 		    .title{font-size: 3rem;}
 			.context{font-size: 1.3rem;}
-			.miscellaneous{font-size: 1.3rem; position: absolute; bottom: 4%;}
-		    .profile{width: 45px; clip-path: circle(35%); position: absolute; right: 100%;}
+			.miscellaneous{font-size: 1.3rem; bottom: 4%;}
+		    .profile{width: 45px; right: 100%;}
 		}
 		
 		@media screen and (max-width: 553px) {
-			.imgcontainer{width: 200px; height: 200px; float: left; margin-right: 3%; overflow: hidden; position: relative;}
+			.imgcontainer{width: 200px; height: 200px;}
 		    .title{font-size: 2.5rem;}
 			.context{font-size: 1rem;}
-			.miscellaneous{font-size: 1rem; position: absolute; bottom: 4%;}
-		    .profile{width: 40px; clip-path: circle(35%); position: absolute; right: 100%; bottom: -110%;}
+			.miscellaneous{font-size: 1rem; bottom: 4%;}
+		    .profile{width: 40px; right: 100%; bottom: -110%;}
 		}
 		
 		@media screen and (max-width: 467px) {
-			.imgcontainer{width: 300px; height: 300px; float: left; margin-right: 3%; overflow: hidden; position: relative;}
-		    .title{font-size: 2.5rem; vertical-align: middle;}
-			.context{font-size: 1rem; vertical-align: middle;}
-			.miscellaneous{font-size: 1rem; position: absolute; bottom: 4%;}
-		    .profile{width: 35px; clip-path: circle(35%); position: absolute; right: 100%; bottom: -120%;}
+			.imgcontainer{width: 300px; height: 300px;}
+		    .title{font-size: 2.5rem;}
+			.context{font-size: 1rem;}
+			.miscellaneous{font-size: 1rem;bottom: 4%;}
+		    .profile{width: 35px; right: 100%; bottom: -120%;}
 		}
 		
 		@media screen and (max-width: 375px) {
-			.imgcontainer{width: 250px; height: 250px; float: left; margin-right: 3%; overflow: hidden; position: relative;}
-		    .title{font-size: 2.5rem; vertical-align: middle;}
-			.context{font-size: 1rem; vertical-align: middle;}
-			.miscellaneous{font-size: 1rem; position: absolute; bottom: 4%;}
-		    .profile{width: 35px; clip-path: circle(35%); position: absolute; right: 100%; bottom: -140%;}
+			.imgcontainer{width: 250px; height: 250px;}
+		    .title{font-size: 2.5rem;}
+			.context{font-size: 1rem;}
+			.miscellaneous{font-size: 1rem; bottom: 2%;}
+		    .profile{width: 35px; right: 100%; bottom: -90%;}
 		}
 		
 	</style>
@@ -84,8 +84,10 @@
 						<h2><a href="#" class="title">마부의 커피, Einspanner</a></h2>
 						<p><a href="#" class="context">'비엔나 커피'로 유명한 아인슈패너는 진한 블랙커피에 크림과 설탕을 얹어 만든 커피입니다. Einspänner는 말 한마리가 끄는 마차를 뜻하는데요, 빈의 마부들이 피로를 풀기 위해 설탕과 크림을 듬뿍 넣어 진한 커피를 마신것에서...</a></p>
 						<div class="miscellaneous">
-							<a href="#">
+							<a href="#" class="profileContainer">
 								<img src="${context}/css/images/profile1.jpg" alt="author1" class="profile">
+							</a>
+							<a href="#">
 								<span>Trebuchet512</span><span class="divider">|</span><span>2022.05.15</span>
 							</a>
 						</div>
